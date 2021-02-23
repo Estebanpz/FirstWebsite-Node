@@ -4,6 +4,7 @@ const path = require('path')
 //Settings
 app.set('port', 3000);
 app.engine('html',require('ejs').renderFile)
+//import ejs
 app.set('view engine', 'ejs')
 app.set('views',path.join(__dirname, 'views'));//Aqui le digo que use la carpeta Views
 
